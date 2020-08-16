@@ -1,0 +1,9 @@
+D:\work\coreandangular\ecomapp\core\bin\Debug\netstandard2.0\core.deps.json
+D:\work\coreandangular\ecomapp\core\bin\Debug\netstandard2.0\core.dll
+D:\work\coreandangular\ecomapp\core\bin\Debug\netstandard2.0\core.pdb
+D:\work\coreandangular\ecomapp\core\obj\Debug\netstandard2.0\core.csprojAssemblyReference.cache
+D:\work\coreandangular\ecomapp\core\obj\Debug\netstandard2.0\core.AssemblyInfoInputs.cache
+D:\work\coreandangular\ecomapp\core\obj\Debug\netstandard2.0\core.AssemblyInfo.cs
+D:\work\coreandangular\ecomapp\core\obj\Debug\netstandard2.0\core.csproj.CoreCompileInputs.cache
+D:\work\coreandangular\ecomapp\core\obj\Debug\netstandard2.0\core.dll
+D:\work\coreandangular\ecomapp\core\obj\Debug\netstandard2.0\core.pdb

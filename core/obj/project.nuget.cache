@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dHQZebKbLFj2I/U40be6vps4eIgXa3KUwuPZvFfVRdd/yk2PmA977omMxKUIIj3+9biYNTYlT4Sp2eShx6Q3xg==",
+  "success": true,
+  "projectFilePath": "D:\\work\\coreandangular\\ecomapp\\core\\core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tvinkal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Tvinkal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

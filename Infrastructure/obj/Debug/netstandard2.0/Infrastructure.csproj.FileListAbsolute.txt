@@ -1,0 +1,12 @@
+D:\work\coreandangular\ecomapp\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+D:\work\coreandangular\ecomapp\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+D:\work\coreandangular\ecomapp\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+D:\work\coreandangular\ecomapp\Infrastructure\bin\Debug\netstandard2.0\core.dll
+D:\work\coreandangular\ecomapp\Infrastructure\bin\Debug\netstandard2.0\core.pdb
+D:\work\coreandangular\ecomapp\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+D:\work\coreandangular\ecomapp\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+D:\work\coreandangular\ecomapp\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+D:\work\coreandangular\ecomapp\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\work\coreandangular\ecomapp\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CopyComplete
+D:\work\coreandangular\ecomapp\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+D:\work\coreandangular\ecomapp\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb
