@@ -12,6 +12,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using core.Interface;
+using AutoMapper;
+using API.Helpers;
 
 namespace API
 {
@@ -28,6 +31,10 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IproductRepository ,productRepository>(); 
+            services.AddScoped(typeof(IGenericRespository<>),(typeof(GenericRespository<>)));
+            services.AddAutoMapper(typeof(MappingProfiles));
+            
             services.AddControllers();
             services.AddDbContext<StoreContext>(x => x.UseSqlite(_config.GetConnectionString("Defaultconnection")));
         }
@@ -43,6 +50,7 @@ namespace API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseStaticFiles();
 
             app.UseAuthorization();
 

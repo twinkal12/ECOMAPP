@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace API.Data.migrations
+namespace Infrastructure.Data.migrations
 {
     [DbContext(typeof(StoreContext))]
     partial class StoreContextModelSnapshot : ModelSnapshot
@@ -15,7 +15,7 @@ namespace API.Data.migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.7");
 
-            modelBuilder.Entity("API.Entities.product", b =>
+            modelBuilder.Entity("core.Entities.ProductBrand", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -26,7 +26,74 @@ namespace API.Data.migrations
 
                     b.HasKey("Id");
 
+                    b.ToTable("productBrands");
+                });
+
+            modelBuilder.Entity("core.Entities.ProductType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("productsType");
+                });
+
+            modelBuilder.Entity("core.Entities.product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Desc")
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasMaxLength(100);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasMaxLength(100);
+
+                    b.Property<int>("ProducTypeId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ProductBrandId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("pictureurl")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<decimal>("price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProducTypeId");
+
+                    b.HasIndex("ProductBrandId");
+
                     b.ToTable("products");
+                });
+
+            modelBuilder.Entity("core.Entities.product", b =>
+                {
+                    b.HasOne("core.Entities.ProductType", "ProductType")
+                        .WithMany()
+                        .HasForeignKey("ProducTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("core.Entities.ProductBrand", "ProductBrand")
+                        .WithMany()
+                        .HasForeignKey("ProductBrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

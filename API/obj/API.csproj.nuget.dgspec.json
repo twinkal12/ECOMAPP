@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\work\\coreandangular\\ecomapp\\API\\API.csproj": {}
+    "D:\\work\\coreandangular\\ecomapp\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\work\\coreandangular\\ecomapp\\API\\API.csproj": {
+    "D:\\work\\coreandangular\\ecomapp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\work\\coreandangular\\ecomapp\\API\\API.csproj",
+        "projectUniqueName": "D:\\work\\coreandangular\\ecomapp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\work\\coreandangular\\ecomapp\\API\\API.csproj",
+        "projectPath": "D:\\work\\coreandangular\\ecomapp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Tvinkal\\.nuget\\packages\\",
-        "outputPath": "D:\\work\\coreandangular\\ecomapp\\API\\obj\\",
+        "outputPath": "D:\\work\\coreandangular\\ecomapp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tvinkal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,6 +42,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.7, )"

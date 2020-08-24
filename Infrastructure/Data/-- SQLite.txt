@@ -1,0 +1,3 @@
+-- SQLite
+INSERT INTO `ProductType` (Id, Desc, price, pictureurl, ProductTypeId, ProducTypeId, ProductBrandId, Name)
+VALUES ('1','desc','800','img/img.jpg','1','1','1','type');

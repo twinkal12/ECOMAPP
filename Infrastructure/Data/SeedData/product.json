@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 1,
+    "Name": "Angular",
+    "Desc": "Loream ipsum dolor",
+    "price": 200,
+    "pictureurl": "images/products/sb.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {"Id": 2,
+    "Name": "vs code",
+    "Desc": "Loream ipsum dolor",
+    "price": 300,
+    "pictureurl": "images/products/sb.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {"Id": 3,
+    "Name": "java",
+    "Desc": "Loream ipsum dolor",
+    "price": 300,
+    "pictureurl": "images/products/sb.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  }
+]
